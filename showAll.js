@@ -1,4 +1,4 @@
-
+// Привет мир
 window.onload = function()
 {
 	document.querySelector('#showAll').onclick = function()
