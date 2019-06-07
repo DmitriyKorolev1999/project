@@ -27,8 +27,10 @@ background-size: 100%;
 			<label>Your List</label><br>
 			<div>
 			<input type="text" name="addMessage" class="form-control" id="l2">
-			<input  id="SHOW" value="add" id="button" class="btn btn-outline-info" type="submit">
-			<div name = "showCom"></div>
+			<input  id="SHOW" value="add" id="button" class="btn btn-outline-info" type="submit" onclick="add()">
+			<ul id="task">
+				
+			</ul>
 			</div>
 		</p>
 	</div>
