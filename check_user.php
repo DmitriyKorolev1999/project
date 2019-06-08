@@ -18,7 +18,7 @@
 		{
 			$_SESSION['id'] = $re['user_id'];
 			$_SESSION['username'] = $re['username'];
-			header("Location: /museum.php");
+			header("Location: /todoo.php");
 			exit;
 		}
 		else
