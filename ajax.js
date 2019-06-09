@@ -42,6 +42,7 @@ function giveMeTasks(){
 	ajaxPost('add_all.php', "add_all").then(resolve=>{
 		let body = document.getElementById('task');
 		resolve = JSON.parse(resolve);
+	   console.log(resolve);
 		for(let i = 0; i < resolve.length / 2; i++){
 			let li = document.createElement('li');
 			li.innerHTML = resolve[i * 2 + 1];
